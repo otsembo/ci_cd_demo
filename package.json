@@ -4,9 +4,12 @@
   "description": "Sample description",
   "main": "index.js",
   "scripts": {
-    "test": "npm test",
+    "test": "jest",
     "start": "node index.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.2.2"
+  }
 }
